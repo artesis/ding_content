@@ -20,7 +20,7 @@ function ding_content_ctools_plugin_api() {
 function ding_content_image_default_styles() {
   $styles = array();
 
-  // Exported image style: ding_content_main_image
+  // Exported image style: ding_content_main_image.
   $styles['ding_content_main_image'] = array(
     'name' => 'ding_content_main_image',
     'effects' => array(
@@ -41,6 +41,7 @@ function ding_content_image_default_styles() {
         'weight' => '1',
       ),
     ),
+    'label' => 'ding_content_main_image',
   );
 
   return $styles;

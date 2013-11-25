@@ -10,7 +10,7 @@
 function ding_content_filter_default_formats() {
   $formats = array();
 
-  // Exported format: Wysiwyg
+  // Exported format: Wysiwyg.
   $formats['ding_wysiwyg'] = array(
     'format' => 'ding_wysiwyg',
     'name' => 'Wysiwyg',
